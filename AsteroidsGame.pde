@@ -4,14 +4,14 @@ Star[] stars = new Star[100];
 {
   size(400,400);
   background(0);
-  for(int i = 0; i <20; i++) {
+  for(int i = 0; i <100; i++) {
     stars[i] = new Star ();
   }
 }
 public void draw() 
 {
   background(0);
-  for(int i = 0; i<20;i++){
+  for(int i = 0; i<100;i++){
     stars[i].show();}
   bob.move();
   bob.show();
