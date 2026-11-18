@@ -1,5 +1,5 @@
 Spaceship bob = new Spaceship();
-Star[] stars = new Star[50];
+Star[] stars = new Star[100];
  public void setup() 
 {
   size(400,400);
