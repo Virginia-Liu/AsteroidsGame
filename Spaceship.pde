@@ -18,7 +18,12 @@ class Spaceship extends Floater
   myCenterY=200; //holds center coordinates   
   myXspeed = 0;
   myYspeed = 0; //holds the speed of travel in the x and y directions   
-  myPointDirection = 0;    }
+  myPointDirection = 0;   
+    }
+ public double getX() { return myCenterX;}
+ public double getY() { return myCenterY;}
+ public double getPointDirection(){ return myPointDirection;}
+    
 public void hyperspace(){
   myCenterX = (float)(Math.random()*400);
   myCenterY = (float)(Math.random()*400);
